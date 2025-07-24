@@ -20,5 +20,5 @@ function calculateBTU() {
     const btu = 500 * gpm * deltaT * correctionFactor;
     const btuFormatted = Math.round(btu).toLocaleString();
 
-    document.getElementById('result').innerText = `BTUs per hour: ${btuFormatted}`;
+    document.getElementById('result').innerText = `BTU/hr: ${btuFormatted}`;
 }
